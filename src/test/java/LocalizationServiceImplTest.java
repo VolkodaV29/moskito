@@ -2,9 +2,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.olmart.entity.Country;
-import ru.olmart.i18n.LocalizationService;
-import ru.olmart.i18n.LocalizationServiceImpl;
+import ru.volkodav.entity.Country;
+import ru.volkodav.i18n.LocalizationService;
+import ru.volkodav.i18n.LocalizationServiceImpl;
 
 public class LocalizationServiceImplTest {
     LocalizationService sut;
