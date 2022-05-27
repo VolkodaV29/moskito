@@ -4,17 +4,17 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.mockito.Mockito;
-import ru.olmart.entity.Country;
-import ru.olmart.entity.Location;
-import ru.olmart.geo.GeoService;
-import ru.olmart.geo.GeoServiceImpl;
-import ru.olmart.i18n.LocalizationService;
-import ru.olmart.sender.MessageSenderImpl;
+import ru.volkodav.entity.Country;
+import ru.volkodav.entity.Location;
+import ru.volkodav.geo.GeoService;
+import ru.volkodav.geo.GeoServiceImpl;
+import ru.volkodav.i18n.LocalizationService;
+import ru.volkodav.sender.MessageSenderImpl;
 import org.junit.jupiter.params.ParameterizedTest;
 import java.util.Map;
 import java.util.stream.Stream;
-import static ru.olmart.entity.Country.RUSSIA;
-import static ru.olmart.entity.Country.USA;
+import static ru.volkodav.entity.Country.RUSSIA;
+import static ru.volkodav.entity.Country.USA;
 
 
 public class MessageSenderImplTest {
