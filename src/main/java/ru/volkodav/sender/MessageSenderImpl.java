@@ -2,10 +2,10 @@ package ru.volkodav.sender;
 
 import java.util.Map;
 
-import ru.olmart.entity.Country;
-import ru.olmart.entity.Location;
-import ru.olmart.geo.GeoService;
-import ru.olmart.i18n.LocalizationService;
+import ru.volkodav.entity.Country;
+import ru.volkodav.entity.Location;
+import ru.volkodav.geo.GeoService;
+import ru.volkodav.i18n.LocalizationService;
 
 public class MessageSenderImpl implements MessageSender {
 
