@@ -2,10 +2,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.olmart.entity.Country;
-import ru.olmart.entity.Location;
-import ru.olmart.geo.GeoService;
-import ru.olmart.geo.GeoServiceImpl;
+import ru.volkodav.entity.Country;
+import ru.volkodav.entity.Location;
+import ru.volkodav.geo.GeoService;
+import ru.volkodav.geo.GeoServiceImpl;
 
 public class GeoServiceImplTest {
     GeoService sut;
