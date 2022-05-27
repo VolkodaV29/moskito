@@ -1,6 +1,6 @@
 package ru.volkodav.geo;
 
-import ru.olmart.entity.Location;
+import ru.volkodav.entity.Location;
 
 public interface GeoService {
 
